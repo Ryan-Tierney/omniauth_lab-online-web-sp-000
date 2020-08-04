@@ -41,7 +41,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'omniauth'
   gem 'omniauth-github'
-  gem 'rspec-rails'
+  gem 'dotenv'
 end
 
 group :development do
